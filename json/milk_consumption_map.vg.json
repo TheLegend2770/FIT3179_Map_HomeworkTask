@@ -4,7 +4,7 @@
   "title": "Milk Consumption Worldwide in 2022",
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "https://raw.githubusercontent.com/TheLegend2770/FIT3179_Map_HomeworkTask/main/json/base_map.topojson.json",
+    "url": "https://raw.githubusercontent.com/TheLegend2770/FIT3179_Map_HomeworkTask/main/json/base_map.topojson",
     "format": {"type": "topojson", "feature": "base_map"}
   },
   "transform": [
