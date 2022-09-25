@@ -13,17 +13,17 @@
 </head>
 
 <body>
-  <h1> FIT3179 Week 9 Homework Task</h1>
+  <h1 id="Title"> FIT3179 Week 9 Homework Task</h1>
 </body>
   
 
 <body>
-<div id="milk_consumption_map_final"></div>
+<div id="milk_consumption_map"></div>
 
 <script type="text/javascript">
 
   var spec2 = "json/milk_consumption_map_final.vg.json";
-  vegaEmbed('#milk_consumption_map_final', spec2).then(function(result) {
+  vegaEmbed('#milk_consumption_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
